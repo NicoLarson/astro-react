@@ -1,0 +1,12 @@
+.choose-sign ul.sign-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: #fafafa;
+}
+
+.choose-sign ul.sign-list li.sign-container{
+    border: 1px solid #fafafa;
+    cursor: pointer;
+}
