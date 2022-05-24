@@ -1,0 +1,8 @@
+
+
+.display-result{
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}

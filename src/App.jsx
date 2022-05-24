@@ -21,16 +21,15 @@ const App = () => {
     })()
   }, [api])
 
-
   return (
     <div className="App">
       <header>
         <Navbar />
       </header>
       <main>
+        <DisplayYourChoice result={fetchedData} sign={sign} />
         <ChooseADay setDay={setDay} />
-        <DisplayYourChoice result={fetchedData} />
-        <ChooseYourSign className="choose-your-sign" setSign={setSign} />
+        <ChooseYourSign setSign={setSign} />
       </main>
     </div>
   );

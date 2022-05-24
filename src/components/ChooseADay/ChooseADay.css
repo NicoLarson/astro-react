@@ -1,7 +1,8 @@
 .choose-a-day {
   width: 100%;
 display: flex;
-justify-content: center;}
+justify-content: center;
+margin: 1rem 0;}
 
 .choose-a-day h2{
     display: none;
