@@ -1,0 +1,9 @@
+.choose-a-day {
+  width: 100%;
+display: flex;
+justify-content: center;}
+
+.choose-a-day h2{
+    display: none;
+}
+

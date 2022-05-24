@@ -1,19 +1,21 @@
 import React from "react";
 import './ChooseYourSign.css'
 
-const ChooseYourSign = ({setSign}) => {
+const ChooseYourSign = ({ setSign }) => {
     const signs = ["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"];
+    const signsEmoji = ["♈", "♉", "♊", "♋", "♌", "♍", "♎", "♏", "♐", "♑", "♒", "♓"];
+    const signsName = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
+
     return (
         <div className="choose-sign">
-            <h2>Choose your sign</h2>
-            <ul className="sign-list">
-                {signs.map(sign => (
-                    <li onClick={()=>setSign(sign)} className="sign-container" key={sign}>
-                        <img src={`/images/${sign}.png`} alt={sign} />
-                        <p>{sign}</p>
-                    </li>
+            <div className="btn-group">
+                {signs.map((sign, key) => (
+                    <button onClick={() => setSign(sign)} className="btn btn-primary" key={sign}>
+                        <p>{signsEmoji[key]}</p>
+                        <p>{signsName[key]}</p>
+                    </button>
                 ))}
-            </ul>
+            </div>
         </div>
     )
 }

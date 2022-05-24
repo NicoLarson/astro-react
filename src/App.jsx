@@ -9,7 +9,7 @@ const App = () => {
 
   let [fetchedData, updateFetchedData] = useState([])
   let [sign, setSign] = useState('')
-let [day, setDay] = useState('')
+  let [day, setDay] = useState('')
 
   let api = `https://aztro.sameerkumar.website/?sign=${sign}&day=${day}`;
   useEffect(() => {
@@ -28,9 +28,9 @@ let [day, setDay] = useState('')
         <Navbar />
       </header>
       <main>
-        <ChooseYourSign setSign={setSign} />
         <ChooseADay setDay={setDay} />
         <DisplayYourChoice result={fetchedData} />
+        <ChooseYourSign className="choose-your-sign" setSign={setSign} />
       </main>
     </div>
   );
