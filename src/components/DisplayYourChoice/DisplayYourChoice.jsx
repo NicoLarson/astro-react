@@ -66,7 +66,11 @@ const DisplayYourChoice = ({ result, sign }) => {
                     </tr>
                 </tbody>
             </table>
-            <p>{result.description}</p>
+            <div className="card bg-secondary mb-3">
+                <div className="card-body">
+                <p className="card-text">{result.description}</p>
+                </div>
+            </div>
         </div >
     )
 }

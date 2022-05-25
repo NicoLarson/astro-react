@@ -24,13 +24,14 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <Navbar />
+        <h1>✨🔮 Horoscope 🔮✨</h1>
       </header>
       <main>
         <DisplayYourChoice result={fetchedData} sign={sign} />
-        <ChooseADay setDay={setDay} />
-        <ChooseYourSign setSign={setSign} />
-      </main>
+        <div>
+          <ChooseADay setDay={setDay} />
+          <ChooseYourSign setSign={setSign} />
+        </div></main>
     </div>
   );
 }

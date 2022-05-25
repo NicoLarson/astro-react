@@ -3,12 +3,17 @@
   box-sizing: content-box;
   overflow-x: scroll;
   overflow-y: hidden;
+  padding: 0.8rem;
+  display: flex;
 }
-.sign-name{
+.choose-sign .sign-name {
   text-transform: capitalize;
+  margin: 0;
 }
-.btn.btn-primary img{
+.choose-sign .btn.btn-secondary {
+  margin: .4rem;
+}
+.choose-sign .btn.btn-secondary img {
   height: 2rem;
-  width: 2rem;
-
+  width: 3rem;
 }

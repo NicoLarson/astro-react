@@ -2,7 +2,7 @@ import React from "react";
 import './ChooseYourSign.css'
 
 const ChooseYourSign = ({ setSign }) => {
-    const signs = ["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagitarius", "capricorn", "aquarius", "pisces"];
+    const signs = ["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"];
     const signsImagesLink = ["https://img.icons8.com/external-others-maxicons/62/000000/external-aries-celestial-and-witchcraft-others-maxicons.png",
         "https://img.icons8.com/external-others-maxicons/62/000000/external-taurus-celestial-and-witchcraft-others-maxicons.png",
         "https://img.icons8.com/external-others-maxicons/62/000000/external-gemini-celestial-and-witchcraft-others-maxicons.png",
@@ -18,14 +18,14 @@ const ChooseYourSign = ({ setSign }) => {
 
     return (
         <div className="choose-sign">
-            <div className="btn-group">
+            {/* <div className="btn-group"> */}
                 {signs.map((sign, key) => (
-                    <button onClick={() => setSign(sign)} className="btn btn-primary" key={sign}>
+                    <button onClick={() => setSign(sign)} className="btn btn-secondary" key={sign}>
                         <img src={signsImagesLink[key]} alt="" />
                         <p className="sign-name">{sign}</p>
                     </button>
                 ))}
-            </div>
+            {/* </div> */}
         </div>
     )
 }
