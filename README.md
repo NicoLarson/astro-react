@@ -25,7 +25,7 @@ npm run start
 
 👤 **Nicolas Yang**
 
-* Website: nicolasyang.dev
+* Website: [nicolasyang.dev](https://nicolasyang.dev)
 * Github: [@NicoLarson](https://github.com/NicoLarson)
 * LinkedIn: [@nicolas-yang-dev](https://linkedin.com/in/nicolas-yang-dev)
 
