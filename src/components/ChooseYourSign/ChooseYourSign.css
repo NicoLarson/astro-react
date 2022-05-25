@@ -11,9 +11,33 @@
   margin: 0;
 }
 .choose-sign .btn.btn-secondary {
-  margin: .4rem;
+  margin: 0.4rem;
 }
 .choose-sign .btn.btn-secondary img {
-  height: 2rem;
-  width: 3rem;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-sign {
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    height: 100vh;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .choose-sign .btn.btn-secondary {
+    margin: 0.4rem;
+    padding: 0.2rem;
+  }
+  .choose-sign .btn.btn-secondary p {
+    display: none;
+  }
 }

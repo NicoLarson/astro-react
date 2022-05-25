@@ -31,7 +31,8 @@ const App = () => {
         <div>
           <ChooseADay setDay={setDay} />
           <ChooseYourSign setSign={setSign} />
-        </div></main>
+        </div>
+      </main>
     </div>
   );
 }
