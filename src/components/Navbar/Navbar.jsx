@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>Astro React 🔮</h1>
+            <h1>Horoscope</h1>
         </nav>
     )
 }

@@ -4,3 +4,11 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.sign-name{
+  text-transform: capitalize;
+}
+.btn.btn-primary img{
+  height: 2rem;
+  width: 2rem;
+
+}
