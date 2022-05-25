@@ -5,7 +5,7 @@
 
 > A web app in React to consult the horoscope.
 
-### 🏠 [Homepage](https://NicoLarson.github.io/astro-react)
+### 🏠 [Homepage](https://github.com/NicoLarson/astro-react)
 
 ### ✨ [Demo](https://NicoLarson.github.io/astro-react)
 
